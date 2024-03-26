@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#bookList {
+  margin-top: 20px;
+}
+
+.book {
+  margin-bottom: 10px;
+}
+
+.book p {
+  margin: 5px 0;
+}
+#searchInput {
+  width: 500px;
+  margin-left: 430px;
+}
